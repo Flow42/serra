@@ -1,0 +1,71 @@
+# ---- Build output ----
+build/
+build-*/
+cmake-build-*/
+out/
+install/
+
+# ---- CMake ----
+CMakeCache.txt
+CMakeFiles/
+CMakeUserPresets.json
+cmake_install.cmake
+CTestTestfile.cmake
+Testing/
+_deps/
+compile_commands.json
+
+# ---- JUCE ----
+# Projucer-generated build folders and caches
+Builds/
+JuceLibraryCode/
+*.jucer.bak
+# Downloaded/compiled plugin binaries and artefacts
+*_artefacts/
+*.vst
+*.vst3
+*.component
+*.aax
+*.au
+*.lv2
+*.exe
+*.app
+*.a
+*.lib
+*.so
+*.dylib
+*.dll
+
+# ---- Object / intermediate files ----
+*.o
+*.obj
+*.d
+*.gch
+*.pch
+*.ilk
+*.pdb
+
+# ---- IDE / editor ----
+.vscode/
+.vs/
+.idea/
+*.xcodeproj/
+*.xcworkspace/
+*.suo
+*.user
+*.sln
+*.ncb
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# ---- OS ----
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Thumbs.db
+ehthumbs.db
+desktop.ini
